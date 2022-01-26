@@ -1,7 +1,7 @@
 from random import choice
 
 lista_palavras = ["banana", "pera", "uva", "abacaxi", "abacate", "amora", "goiaba", "mexerica", "maçã", "romã", "jabuticaba", "manga",
-                  "limão", "laranja", "kiwi", "mamão", "malão", "melancia", "lichia", "damasco", "gabiroba", "pessego", "graviola", "maracuja",
+                  "limão", "laranja", "kiwi", "mamão", "melão", "melancia", "lichia", "damasco", "gabiroba", "pessego", "graviola", "maracuja",
                   "caju", "coco", "figo", "franboesa", "carambola", "groselha", "jaca", "morango", "pitaia", "nectarina", "açai", "acerola", "cacau", "caqui",
                   "cereja", "joãobolão", "pitanga", "siriguela", "tomate", "castanha", "nozes"]
 palavra_secreta = choice(lista_palavras)
