@@ -29,7 +29,12 @@ while(not acertou and not enforcou):
         if(chute.lower() == palavra_secreta.lower()):
             print("Você venceu!")
             print("A palavra secreta era: " + palavra_secreta)
+            posicao1 = 0
+            for letra in palavra_secreta:
+                letras_acertadas[posicao1] = letra
+                posicao1 += 1
             acertou = True
+            continue
         posicao = 0
         for letra in palavra_secreta:
             if(chute.lower() == letra.lower()):
